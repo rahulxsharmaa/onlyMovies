@@ -67,7 +67,7 @@ searchBox.addEventListener("keydown", function (event) {
 
 
 
-        let url = `https://www.omdbapi.com/?apikey=3495dc3d&t=${searchQuery}&type=movie`;
+        let url = `http://www.omdbapi.com/?apikey=3495dc3d&t=${searchQuery}&type=movie`;
 
 
         fetch(url)
